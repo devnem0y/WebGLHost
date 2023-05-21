@@ -51,17 +51,16 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Nadoedashki.loader.js";
-      var config = {
-        dataUrl: buildUrl + "/Nadoedashki.data",
-        frameworkUrl: buildUrl + "/Nadoedashki.framework.js",
-        codeUrl: buildUrl + "/Nadoedashki.wasm",
+      	var buildUrl = "Build";
+      	var loaderUrl = buildUrl + "/WebGL.loader.js";
+      	var config = {
+        dataUrl: buildUrl + "/WebGL.data",
+        frameworkUrl: buildUrl + "/WebGL.framework.js",
+        codeUrl: buildUrl + "/WebGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "UralHedgehog",
         productName: "Nadoedashki",
         productVersion: "1.2f",
-        showBanner: unityShowBanner,
       };
 
       // By default Unity keeps WebGL canvas render target size matched with
